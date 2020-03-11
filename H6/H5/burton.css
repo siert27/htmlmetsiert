@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial;
+    line-height: 22px;
+    font-family: 'Ubuntu', sans-serif;
+}
+div.wrapper ,footer{
+    margin:auto;
+    width:955px;
+    background-color:rgb(251, 235, 235);
+    padding:20px;
+}
+nav{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+nav a{
+    margin-right: 20px;
+}
+section{
+
+}
+section.appel{
+    width:50%;
+    float: left;
+}
+section.visuals{
+    width:50%;
+    float: left;
+    text-align: right;
+}
+scetion.artikelen{
+
+}
+img.appel{
+    width: 483px;
+    margin-bottom: 5px;
+}
+img.visuals{
+    width: 410px;
+    margin-bottom: 20px;
+}
+article{
+    display: inline-block;
+    width: 30%;
+    padding-right: 20px;
+    vertical-align: top;
+}
+article:last-child{
+    padding-right: 0px;
+    width: 350px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+img.football{
+    width: 260px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+img.saai{
+    width: 344px;
+    margin-top: 20px;
+}
+footer{
+    background-color:rgb(166, 166, 166);
+    height: 132px;
+
+}
+article.copy{
+    padding-top:15px;
+    color:white;
+}
+footer a {
+    color:white;
+}
